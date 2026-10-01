@@ -1,0 +1,100 @@
+:root {
+  /* Colors */
+  --bg: #F7F2E9;
+  --surface: #FFFDF8;
+  --surface-elevated: #FFFFFF;
+  --surface-dark: #1D1A17;
+  --ink: #1D1A17;
+  --text-2: #4A433B;
+  --muted: #80766A;
+  --border: #E4DCCF;
+  --border-strong: #CDC4B5;
+  --primary: #B9502F;
+  --primary-h: #A14427;
+  --primary-a: #8B3A20;
+  --secondary: #2F5D62;
+  --secondary-h: #264D51;
+  --accent: #D9A441;
+  --olive: #66714A;
+  --success: #3F7D58;
+  --warning: #B7791F;
+  --error: #B23A3A;
+  --info: #2F5D62;
+
+  /* Spacing Scale (4px base) */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+  --s8: 64px;
+  --s9: 96px;
+  --s10: 128px;
+
+  /* Radii */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  /* Shadows (warm-tinted) */
+  --sh-1: 0 1px 2px rgba(29, 26, 23, 0.06);
+  --sh-2: 0 4px 14px rgba(29, 26, 23, 0.08);
+  --sh-3: 0 16px 40px rgba(29, 26, 23, 0.14);
+
+  /* Transitions */
+  --t-fast: 150ms;
+  --t-med: 300ms;
+  --t-slow: 600ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Z-Index */
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-nav: 30;
+  --z-drawer: 50;
+  --z-modal: 60;
+  --z-toast: 70;
+  --z-loader: 100;
+
+  /* Container */
+  --container-max: 1200px;
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-dark: var(--surface-dark);
+  --color-ink: var(--ink);
+  --color-text-2: var(--text-2);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-primary: var(--primary);
+  --color-primary-h: var(--primary-h);
+  --color-primary-a: var(--primary-a);
+  --color-secondary: var(--secondary);
+  --color-secondary-h: var(--secondary-h);
+  --color-accent: var(--accent);
+  --color-olive: var(--olive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+
+  --font-display: 'Fraunces', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --radius-pill: var(--r-pill);
+
+  --shadow-warm-1: var(--sh-1);
+  --shadow-warm-2: var(--sh-2);
+  --shadow-warm-3: var(--sh-3);
+}
